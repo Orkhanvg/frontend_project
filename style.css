@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.covid{
+    background-color: #233a95;
+    text-align: center;
+    border-bottom: 15px;
+   text-decoration: aliceblue;
+   width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: aliceblue;
+  
+
+}
+
+ .row1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    padding: auto;
+    text-size-adjust: 1px;
+
+
+} 
+.row2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    padding: auto;
+    text-size-adjust: 1px;
+}
+
+.row3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    padding: auto;
+    text-size-adjust: 1px;
+}
