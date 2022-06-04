@@ -22,6 +22,7 @@
     margin-left: auto;
     padding: auto;
     text-size-adjust: 1px;
+ 
    
 } 
 
@@ -59,6 +60,14 @@ margin-inline-start: 40px;
     height: 4px;
 } */
 
+.categories{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: yellowgreen;
+    justify-content: center;
+    display: flex;
+}
 
 
 
