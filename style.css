@@ -29,25 +29,30 @@
    display: flex;
    flex-wrap: wrap;
    justify-content:start;
-margin-top: 10px;
+ margin-top: 10px;
+margin-inline-start: 40px; 
+
    
  
 }
 
 .main_5{
-    display: flex;
-   flex-wrap: wrap;
-   justify-content:center;
-   margin-top: 10px;
-}
-
-.main_6{
+   
     display: flex;
     flex-wrap: wrap;
-    justify-content:right;
+    justify-content:center;
     margin-top: 10px;
-    
-}
+    margin-inline: 50px;
+    border-top: 10px;
+    justify-content:space-evenly;
+
+} 
+
+/* .main_6{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+}  */
 
 
 
@@ -76,7 +81,7 @@ margin-top: 10px;
     width: 164px;
 } */
 
-.logo-with-text img {
+/* .logo-with-text img {
     display: block;
     margin: 0 auto;
 }
@@ -84,6 +89,6 @@ margin-top: 10px;
 .edit{
     margin: 0px;
     padding: 0px;
-}
+} */
 
 
