@@ -16,27 +16,26 @@
 
 }
 
- .row1{
-    display: flex;
+ .main_nav{
+   display: flex;
     justify-content: space-evenly;
     margin-left: auto;
     padding: auto;
     text-size-adjust: 1px;
-
-
+   
 } 
-.row2{
-    display: flex;
-    justify-content: space-evenly;
-    margin-left: auto;
-    padding: auto;
-    text-size-adjust: 1px;
+
+.logo{
+    width: 164px;
+    height: 44px;
 }
 
-.row3{
-    display: flex;
-    justify-content: space-evenly;
-    margin-left: auto;
-    padding: auto;
-    text-size-adjust: 1px;
+.logo-with-text {
+    text-align: justify;
+    width: 164px;
+}
+
+.logo-with-text img {
+    display: block;
+    margin: 0 auto;
 }
