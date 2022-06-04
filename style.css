@@ -25,6 +25,47 @@
    
 } 
 
+.main_4{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:start;
+margin-top: 10px;
+   
+ 
+}
+
+.main_5{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content:center;
+   margin-top: 10px;
+}
+
+.main_6{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:right;
+    margin-top: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* .logo{
     width: 164px;
     height: 44px;
@@ -33,11 +74,16 @@
 .logo-with-text {
     text-align: justify;
     width: 164px;
-}
+} */
 
 .logo-with-text img {
     display: block;
     margin: 0 auto;
-} */
+}
+
+.edit{
+    margin: 0px;
+    padding: 0px;
+}
 
 
