@@ -102,22 +102,42 @@ margin-top: 10px;
 
 .firstline{
     display: flex;
+}
 
+.currency{
+    display: flex;
+ position: absolute;
+ top: 35px;
+margin-inline-start: 300px; 
+}
+
+.languages{
+    display: flex;
+    position: absolute;
+    top: 35px;
+   margin-inline-start: 210px; 
 
 }
-/* .logo{
-    width: 100px;
-    height: 4px;
-} */
+.logo img{
+    width: 164px;
+    height: 43.8px;
+}
 
-.categories_loop{
+.logo_text{
+    display: block;
+    font-size: .7250rem;
+    opacity: .5;
+    margin-top: 2px;
+}
+
+/* .categories_loop{
     margin: 20px;
     padding: 20px;
     box-sizing: border-box;
     color: black;
     background-color: aliceblue;
    
-}
+} */
 
 
 
