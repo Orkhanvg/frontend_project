@@ -202,7 +202,24 @@ margin-inline-start: 300px;
       top: 85px;
       font-size: 20px;
   }
+
+
+  .icon1 i{
+    font-size: 40px;
+    margin-top: 10px;
+
+  }
+  .icon2{
+    font-size: 40px;
+    margin-top: -2px;
+
+  }
   
+
+  .icon3{
+    font-size: 40px;
+    margin-top: -3px;
+  }
  
 /* .logo{
     width: 164px;
