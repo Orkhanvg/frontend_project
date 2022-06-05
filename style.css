@@ -60,13 +60,13 @@ margin-inline-start: 40px;
     height: 4px;
 } */
 
-.categories{
-    margin: 0;
-    padding: 0;
+.categories_loop{
+    margin: 20px;
+    padding: 20px;
     box-sizing: border-box;
-    text-decoration: yellowgreen;
-    justify-content: center;
-    display: flex;
+    color: black;
+    background-color: aliceblue;
+   
 }
 
 
