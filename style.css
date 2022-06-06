@@ -298,14 +298,20 @@ span{
 
 .small-product-card2{
     width: 25%;
-    /* border: 1px solid gray; */
-    
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 15px 40px;
     border: 0.5px solid gray;
+}
+
+.small-product-card2 img{
+    cursor: pointer;
+}
+
+.small-product-card1 img{
+    cursor: pointer;
 }
 
 .product-info2{
@@ -330,27 +336,61 @@ span{
     margin: 100px auto;
 }
 
-
-
-/* .logo{
-    width: 164px;
-    height: 44px;
+.product-title2{
+    font-weight: 600;
+    font-family: sans-serif;
+    cursor: pointer;
 }
 
-.logo-with-text {
-    text-align: justify;
-    width: 164px;
-} */
 
-/* .logo-with-text img {
-    display: block;
-    margin: 0 auto;
+.product-count2{
+    font-size: 80%;
+    color: #7a7a7a;
 }
 
-.edit{
-    margin: 0px;
-    padding: 0px;
-} */
+
+.product-title1{
+    font-weight: 600;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.product-count1{
+    font-size: 80%;
+    color: #7a7a7a;
+}
+
+
+.bigcard_007 img {
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.bigcard_007{
+    border: 1px solid red;
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+}
+
+
+.deals{
+    font-size: 1.25rem;
+    color: #233a95
+}
+
+.offer{
+    color: grey;
+}
+
+bdi {
+    unicode-bidi: isolate;
+}
+
+
 
 
 
