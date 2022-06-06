@@ -524,7 +524,7 @@ bdi {
     color: white;
     font-family: 'Dosis', sans-serif;
     font-weight: 600;
-}
+} 
 /* end */
 
 /* 2nd box */
@@ -567,13 +567,17 @@ bdi {
     color: black;
 }
 
-.organicos{
-    border: 1px solid #00B853;
-    padding: 4px 10px;
-    border-radius: 5px;
-    background: #00B853;
-
+.organicos span{
     
+    border: 1px solid #e5f8ed;
+    padding: 4px 20px;
+    border-radius:70px;
+    background: #e5f8ed;
+    justify-content: center;
+    font-size: 10px;
+    color: #29a05f;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
 }
 
 
