@@ -475,7 +475,139 @@ bdi {
 .product-pcs{
     background: linear-gradient(90deg, #d51243 0%, #ff6048 50%, #ffcd00 91%);
     background-origin: 40%;
+    border-radius: 50px;
 }
+
+/* 6 boxes */
+/* 1st box */
+.stock3{
+    color:#00B853;
+    margin: 0 0 0 0;
+    font-size: 11px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;  
+}
+
+.priceballs{
+    font-family: 'Dosis' sans-serif;
+    font-size: 15.3px;
+    font-weight: 600;
+    color: #c2c2d3;
+    text-decoration: line-through;
+    justify-content: space-between;
+}
+.pricebals44{
+    color: #d51243;
+    font-size: 18px;
+    /* font-family: 'Dosis'sans-serif; */
+}
+
+.disc {
+    border: 1px solid #2bbef9;
+    padding: 2px 10px;
+    border-radius: 5px;
+    background: #2bbef9;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+}
+
+.recommend{
+
+    border: 1px solid #abb8c3;
+    padding: 4px 20px;
+    border-radius: 5px;
+    background: #abb8c3;
+    justify-content: center;
+    font-size: 10px;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+}
+/* end */
+
+/* 2nd box */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
