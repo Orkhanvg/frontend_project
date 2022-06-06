@@ -390,6 +390,49 @@ bdi {
     unicode-bidi: isolate;
 }
 
+.spanprice{
+    font-family: var(font-secondary);
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #c2c2d3;
+    text-decoration: line-through;
+    justify-content: space-between;
+}
+.spanprice2{
+    color: #d51243;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+.infoygrt{
+    font-size: 18px;
+
+}
+.infoygrt a:hover {
+    color:#0028c9;
+    
+  }
+.infoygrt a {
+   color: black;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.kg1{
+    color: gray;
+    font-size: 11px;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.stock2{
+    color:#00B853;
+    margin: 0 0 0 10px;
+    font-size: 11px
+    font-family: 'Dosis', sans-serif;
+    
+}
+
 
 
 
