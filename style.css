@@ -781,13 +781,24 @@ bdi {
     color: #202435;
     font-size: 1.5em;
     font-weight: bold;
-    font-size: 'Inter' sans-serif;
+    font: 'Inter' sans-serif;
+    
+}
+
+.down12{
+    font: 'Inter' sans-serif;
+    color: #9b9bb4;
+    font-size: 13px;
+    display: flex;
 }
 
 
 
 
 
+.diskounttt1 .colaa img{
+    width: 100%;
+}
 
 
 
