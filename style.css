@@ -688,6 +688,7 @@ bdi {
 }
 
 .view{
+    position: relative;
     margin-right: 500px;
 }
 
