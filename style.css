@@ -801,12 +801,39 @@ bdi {
 }
 
 
-.row .colaa img{
-    width: 100%;
+/* yellow_bar */
+
+
+.yellow_bar{ 
+    padding: 15px;
+    border-radius: 10px;
+    background: #fbeacf;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
+/* blue subscribe(footer) */
 
+.footer-subscribe{
+    padding: 50px 0 0 0;
+    background: #233a95;
+   
+}
 
+.subscribe-content{
+    color: #fff;
+}
+
+.entry-teaser{
+    font-size: 13px;
+    margin: 0px 0px 16px;
+    color: #8e99c8;
+}
+ 
 
 
 
