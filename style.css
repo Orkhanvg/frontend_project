@@ -661,12 +661,7 @@ bdi {
 
 /* best seller */
 
- .bestsellers{
-    position: relative;
-    border: 1px solid gray ;
-    padding: 2px 10px;
-    border-radius: 25px;
-} 
+
 
 .best {
     font-family: 'Dosis', sans-serif;
@@ -687,28 +682,107 @@ bdi {
 
 }
 
-.view{
-    position: relative;
-    margin-right: 500px;
+
+
+/* egg */
+
+
+.egg img{
+    
+    width: 369.99px;
+    height:218.63px ;
+    border-radius: 5%;
 }
 
 
 
 
 
-  
+.left_top{
+    
+    top: 60px;
+    left: 70px;
+    font-size: 15px;
+    color: #00b853;
+    font-weight: 600;
+    font-family: 'Dosis', sans-serif;
+    font-size: .875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0;
+}
+    
+.egg{
+    position: relative;
+}
 
+.egg_items{
+    position: absolute;
+    top: 70px;
+    left: 50px;
+}
+ 
+ 
+  .down_top{
+    
+    top: 100px;
+    left: 70px;
+    
+    color: #3e445a;
+    
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -.8px;
+    
+  }
 
+  .down2_top{
+    
+    top: 140px;
+    left: 70px;
+    font-size: .75rem;
+    color: #9b9bb4;
+    font-weight: 600;
+    font-family: 'Dosis', sans-serif;
+    
+  }
 
+  .down2_top3{
+    
+    top: 170px;
+    left: 70px;
+    font-size: 14px;
+    color: #9b9bb4;
+    font-weight: 600;
+    font-family: 'Dosis', sans-serif;
+   
+    border: 1px solid #9b9bb4 ;
+    padding: 4px 20px;
+    border-radius: 25px;
+    background:#9b9bb4;
+}
+    
+.down2_top3 a {
+    text-decoration: none;
+    color: white;
+}
 
+/* bottle */
 
+.down10{
+    color: #9b9bb4;
+    font-size: 13px;
+    font-size: 'Dosis' sans-serif;
+    Margin: 0px 12px 0px 0px;
+}
 
-
-
-
-
-
-
+.down11{
+    color: #202435;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-size: 'Inter' sans-serif;
+}
 
 
 
