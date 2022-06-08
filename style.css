@@ -660,6 +660,18 @@ bdi {
     padding: 4px 20px;
 }
 
+.view{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background: red;
+}
+
+.moree{
+    display: flex;
+    width: 200px;
+    font-size: 15px;
+}
 
 
 /* best seller */
