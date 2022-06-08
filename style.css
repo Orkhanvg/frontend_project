@@ -567,6 +567,11 @@ bdi {
     color: black;
 }
 
+.organicos{
+    position: absolute;
+    margin-top: 35px;
+}
+
 .organicos span{
     
     border: 1px solid #e5f8ed;
@@ -1194,7 +1199,7 @@ bdi {
     border-radius: 5px;
   }
   .discmy {
-    margin-top: 30px;
+    margin-top: 40px;
     position: absolute;
   }
   .recommendedmy {
@@ -1216,7 +1221,10 @@ bdi {
 
 
 
-
+/* navbar dropdown */
+.home_1{
+    background: none;
+}
 
 
 
