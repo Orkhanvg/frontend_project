@@ -130,7 +130,7 @@ margin-inline-start: 300px;
     margin-top: 2px;
 }
 
-.location{
+/* .location{
     flex-flow: wrap;
     text-decoration: none;
     max-width: 11.25rem;
@@ -143,7 +143,7 @@ margin-inline-start: 300px;
     margin-top: 2px;
     position: relative;
 
-}
+} */
 
 
 .your_location{
@@ -193,15 +193,19 @@ margin-inline-start: 300px;
     -webkit-border-radius: 3px;
     -webkit-appearance: none;
     box-sizing: border-box;
+    position: relative;
  
 
   }
 
   .search_icon{
-      position: absolute;
-      right: 350px;
-      top: 85px;
-      font-size: 20px;
+      
+   position: absolute;
+right: 3px;
+   top: 3px;
+   height: 150px;
+
+
   }
 
 
@@ -1222,9 +1226,18 @@ bdi {
 
 
 /* navbar dropdown */
-.home_1{
-    background: none;
+.home_1 a{
+    color: #3e445a;
+    background-color: white;
+    border-radius: 0;
+    
+
 }
+
+
+.home_1 a:hover {
+    background-color: #2bbef9;
+  }
 
 
 
