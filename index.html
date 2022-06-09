@@ -32,6 +32,10 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css">
   <title>Magaza_homePage</title>
 </head>
@@ -143,10 +147,10 @@
 
 <!-- problemmm -->
 
-  <div class="container_3">
-    <div class="row">
+  <div class="container">
+    <div class="row justify-content-between">
 
-      <div class="col-4">
+      <div class="col-3">
         <div class="btn-group cate1">
           <button class="btn btnbtn-lg dropdown-toggle food_menu cate1_2" type="button" data-bs-toggle="dropdown"
             aria-expanded="false">
@@ -161,7 +165,65 @@
           </div>
         </div>
       </div>
-      <div class="col-4 row">
+
+      <div class="col-9 d-flex justify-content-end">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              
+
+              <div class="dropdown endNavLink">
+                <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                  Home
+                </a>
+              
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+
+
+              <div class="dropdown endNavLink">
+                <a class="btn  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                  Shop
+                </a>
+              
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+
+
+
+              <li class="nav-item endNavLink">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item endNavLink">
+                <a class="nav-link" href="#">Disabled</a>
+              </li>
+              <li class="nav-item endNavLink">
+                <a class="nav-link" href="#">Disabled</a>
+              </li>
+              <li class="nav-item endNavLink">
+                <a class="nav-link" href="#">Disabled</a>
+              </li>
+              <li class="nav-item endNavLink">
+                <a class="nav-link" href="#">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <!-- <div class="col-4 row">
         <div class="col-3">
           <div class="dropdown home_1">
             <a class="btn btn-secondary dropdown-toggle hvr" href="#" role="button" id="dropdownMenuLink"
@@ -223,7 +285,7 @@
             <button type="button" class="btn btn-none">CONTACT</button>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 
@@ -736,148 +798,225 @@
 
         <div class="smallcardsmy">
           <div class="diskountttmy">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <div class="row">
+                <div class="colafamy">
+                  <img src="img/corn22.jpg" width="200" alt="" srcset="" />
+                  <div class="info_meatballsmy">
+                    <span class="mtballsmy">Angie’s Boomchickapop Sweet & Salty Kettle Corn</span>
+                  </div>
+                  <div class="stock3my"><span class="stock3">In Stock</span></div>
+                  <div class="product-ratingmy">
+                    <i class="fa fa-star rating-color text-warning"></i>
+                    <i class="fa fa-star rating-color text-warning"></i>
+                    <i class="fa fa-star rating-color text-warning"></i>
+                    <i class="fa fa-star rating-color text-warning"></i>
+                    <i class="fa fa-star rating-color text-muted"></i>
+                    <span>1</span>
+                  </div>
+                  <div class="price56my">
+                      <span class="woocommerce-Price-currencySymbol price66my ">
+                          $4.29
+                        </span>
+  
+                    <span
+                      class="woocommerce-Price-currencySymbol pricemy ms-3">
+                      $3.29
+                    </span>
+                    <div class="button micro">Add to card</div>
+                  </div>
+                </div>
+              </div></div>
+              <div class="item">
+                <div class="row">
+                <div class="colafamy">
+                  <img src="img/corn22.jpg" width="200" alt="" srcset="" />
+                  <div class="info_meatballsmy">
+                    <span class="mtballsmy">Angie’s Boomchickapop Sweet & Salty Kettle Corn</span>
+                  </div>
+                  <div class="stock3my"><span class="stock3">In Stock</span></div>
+                  <div class="product-ratingmy">
+                    <i class="fa fa-star rating-color text-warning"></i>
+                    <i class="fa fa-star rating-color text-warning"></i>
+                    <i class="fa fa-star rating-color text-warning"></i>
+                    <i class="fa fa-star rating-color text-warning"></i>
+                    <i class="fa fa-star rating-color text-muted"></i>
+                    <span>1</span>
+                  </div>
+                  <div class="price56my">
+                      <span class="woocommerce-Price-currencySymbol price66my ">
+                          $4.29
+                        </span>
+  
+                    <span
+                      class="woocommerce-Price-currencySymbol pricemy ms-3">
+                      $3.29
+                    </span>
+                    <div class="button micro">Add to card</div>
+                  </div>
+                </div>
+              </div></div>
+              <div class="item"> <div class="smallcardsmy">
+          
+                <div class="diskountttmy">
+                  <span class="discmy">19%</span>
+                  <div class="organicos">
+                    <span class="organicos">ORGANIC</span>
+                  </div>
+                  <div class="row">
+                    <div class="colafamy">
+                      <img src="img/cheese33.jpg" width="200" alt="" srcset="" />
+                      <div class="info_meatballsmy">
+                        <span class="mtballsmy">Field Roast Chao Cheese Creamy Original</span>
+                      </div>
+                      <div class="stock3my"><span class="stock3">In Stock</span></div>
+                      <div class="product-ratingmy">
+                        <i class="fa fa-star rating-color text-warning"></i>
+                        <i class="fa fa-star rating-color text-warning"></i>
+                        <i class="fa fa-star rating-color text-warning"></i>
+                        <i class="fa fa-star rating-color text-warning"></i>
+                        <i class="fa fa-star rating-color text-waning"></i>
+                        <span>1</span>
+                      </div>
+                      <div class="price56my">
+                          <span class="woocommerce-Price-currencySymbol price66my ">
+                              $24.00
+                            </span>
+      
+                        <span
+                          class="woocommerce-Price-currencySymbol pricemy ms-3">
+                          $19.50
+                        </span>
+                        <div class="button micro">Add to card</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div></div>
+              <div class="item">
+                <div class="smallcardsmy">
+                 
+                   
+                    
+                    <div class="row">
+                      <div class="colafamy">
+                        <img src="img/buffalo wings 44.jpg" width="200" alt="" srcset="" />
+                        <div class="info_meatballsmy">
+                          <span class="mtballsmy">Foster Farms Takeout Crispy Classic Buffalo Wings</span>
+                        </div>
+                        <div class="stock3my"><span class="stock3">In Stock</span></div>
+                        <div class="product-ratingmy">
+                          <i class="fa fa-star rating-color text-warning"></i>
+                          <i class="fa fa-star rating-color text-warning"></i>
+                          <i class="fa fa-star rating-color text-warning"></i>
+                          <i class="fa fa-star rating-color text-warning"></i>
+                          <i class="fa fa-star rating-color text-muted"></i>
+                          <span>1</span>
+                        </div>
+                        <div class="price56my">
+                            <span class="woocommerce-Price-currencySymbol price66my ">
+                                $7.25
+                              </span>
+        
+                          <span
+                            class="woocommerce-Price-currencySymbol pricemy ms-3">
+                            $49.99
+                          </span>
+                          <div class="button micro">Add to card</div>
+                        </div>
+                      </div>
+                    </div>
+                  
+                </div></div>
+              <div class="item"><div class="smallcardsmy">
+                <div class="diskountttmy">
+                  <span class="discmy">10%</span>
+                  <div class="organicos">
+                    <span class="organicos">ORGANIC</span>
+                  </div>
+                  <div class="row">
+                    <div class="colafamy">
+                      <img src="img/diamond almonds 55.jpg" width="200" alt="" srcset="" />
+                      <div class="info_meatballsmy">
+                        <span class="mtballsmy">Blue Diamond Almonds Lightly Salted</span>
+                      </div>
+                      <div class="stock3my"><span class="stock3">In Stock</span></div>
+                      <div class="product-ratingmy">
+                        <i class="fa fa-star rating-color text-warning"></i>
+                        <i class="fa fa-star rating-color text-warning"></i>
+                        <i class="fa fa-star rating-color text-warning"></i>
+                        <i class="fa fa-star rating-color text-warning"></i>
+                        <i class="fa fa-star rating-color text-muted"></i>
+                        <span>1</span>
+                      </div>
+                      <div class="price56my">
+                          <span class="woocommerce-Price-currencySymbol price66my ">
+                              $11.68
+                            </span>
+      
+                        <span
+                          class="woocommerce-Price-currencySymbol pricemy ms-3">
+                          $10.58
+                        </span>
+                        <div class="button micro">Add to card</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div></div>
+              <div class="item">  <div class="smallcardsmy">
+                <div class="diskountttmy">
+                  <span class="discmy">12%</span>
+                  
+                  <div class="row">
+                    <div class="colafamy">
+                      <img src="img/blueberries 66.jpg" width="200" alt="" srcset="" />
+                      <div class="info_meatballsmy">
+                        <span class="mtballsmy">Blueberries – 1 Pint Package
+                        </span>
+                      </div>
+                      <div class="stock3my"><span class="stock3">In Stock</span></div>
+                      <div class="product-ratingmy">
+                        <i class="fa fa-star rating-color text-warning"></i>
+                        <i class="fa fa-star rating-color text-warning"></i>
+                        <i class="fa fa-star rating-color text-warning"></i>
+                        <i class="fa fa-star rating-color text-warning"></i>
+                        <i class="fa fa-star rating-color text-muted"></i>
+                        <span>1</span>
+                      </div>
+                      <div class="price56my">
+                          <span class="woocommerce-Price-currencySymbol price66my ">
+                              $4.49
+                            </span>
+      
+                        <span
+                          class="woocommerce-Price-currencySymbol pricemy ms-3">
+                          $3.49
+                        </span>
+                        <button class="button micro">Add to card</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div></div>
+              <div class="item"></div>
+              <div class="item"></div>
+              <div class="item"></div>
+              <div class="item"></div>
+              <div class="item"></div>
+              <div class="item"></div>
+          </div>
             <span class="discmy">24%</span>
           
-            <div class="row">
-              <div class="colafamy">
-                <img src="img/corn22.jpg" width="200" alt="" srcset="" />
-                <div class="info_meatballsmy">
-                  <span class="mtballsmy">Angie’s Boomchickapop Sweet & Salty Kettle Corn</span>
-                </div>
-                <div class="stock3my"><span class="stock3">In Stock</span></div>
-                <div class="product-ratingmy">
-                  <i class="fa fa-star rating-color text-warning"></i>
-                  <i class="fa fa-star rating-color text-warning"></i>
-                  <i class="fa fa-star rating-color text-warning"></i>
-                  <i class="fa fa-star rating-color text-warning"></i>
-                  <i class="fa fa-star rating-color text-muted"></i>
-                  <span>1</span>
-                </div>
-                <div class="price56my">
-                    <span class="woocommerce-Price-currencySymbol price66my ">
-                        $4.29
-                      </span>
-
-                  <span
-                    class="woocommerce-Price-currencySymbol pricemy ms-3">
-                    $3.29
-                  </span>
-                  <div class="button micro">Add to card</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="smallcardsmy">
-          
-          <div class="diskountttmy">
-            <span class="discmy">19%</span>
-            <div class="organicos">
-              <span class="organicos">ORGANIC</span>
-            </div>
-            <div class="row">
-              <div class="colafamy">
-                <img src="img/cheese33.jpg" width="200" alt="" srcset="" />
-                <div class="info_meatballsmy">
-                  <span class="mtballsmy">Field Roast Chao Cheese Creamy Original</span>
-                </div>
-                <div class="stock3my"><span class="stock3">In Stock</span></div>
-                <div class="product-ratingmy">
-                  <i class="fa fa-star rating-color text-warning"></i>
-                  <i class="fa fa-star rating-color text-warning"></i>
-                  <i class="fa fa-star rating-color text-warning"></i>
-                  <i class="fa fa-star rating-color text-warning"></i>
-                  <i class="fa fa-star rating-color text-waning"></i>
-                  <span>1</span>
-                </div>
-                <div class="price56my">
-                    <span class="woocommerce-Price-currencySymbol price66my ">
-                        $24.00
-                      </span>
-
-                  <span
-                    class="woocommerce-Price-currencySymbol pricemy ms-3">
-                    $19.50
-                  </span>
-                  <div class="button micro">Add to card</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="smallcardsmy">
-         
-           
             
-            <div class="row">
-              <div class="colafamy">
-                <img src="img/buffalo wings 44.jpg" width="200" alt="" srcset="" />
-                <div class="info_meatballsmy">
-                  <span class="mtballsmy">Foster Farms Takeout Crispy Classic Buffalo Wings</span>
-                </div>
-                <div class="stock3my"><span class="stock3">In Stock</span></div>
-                <div class="product-ratingmy">
-                  <i class="fa fa-star rating-color text-warning"></i>
-                  <i class="fa fa-star rating-color text-warning"></i>
-                  <i class="fa fa-star rating-color text-warning"></i>
-                  <i class="fa fa-star rating-color text-warning"></i>
-                  <i class="fa fa-star rating-color text-muted"></i>
-                  <span>1</span>
-                </div>
-                <div class="price56my">
-                    <span class="woocommerce-Price-currencySymbol price66my ">
-                        $7.25
-                      </span>
-
-                  <span
-                    class="woocommerce-Price-currencySymbol pricemy ms-3">
-                    $49.99
-                  </span>
-                  <div class="button micro">Add to card</div>
-                </div>
-              </div>
-            </div>
-          
-        </div>
-
-        <div class="smallcardsmy">
-          <div class="diskountttmy">
-            <span class="discmy">10%</span>
-            <div class="organicos">
-              <span class="organicos">ORGANIC</span>
-            </div>
-            <div class="row">
-              <div class="colafamy">
-                <img src="img/diamond almonds 55.jpg" width="200" alt="" srcset="" />
-                <div class="info_meatballsmy">
-                  <span class="mtballsmy">Blue Diamond Almonds Lightly Salted</span>
-                </div>
-                <div class="stock3my"><span class="stock3">In Stock</span></div>
-                <div class="product-ratingmy">
-                  <i class="fa fa-star rating-color text-warning"></i>
-                  <i class="fa fa-star rating-color text-warning"></i>
-                  <i class="fa fa-star rating-color text-warning"></i>
-                  <i class="fa fa-star rating-color text-warning"></i>
-                  <i class="fa fa-star rating-color text-muted"></i>
-                  <span>1</span>
-                </div>
-                <div class="price56my">
-                    <span class="woocommerce-Price-currencySymbol price66my ">
-                        $11.68
-                      </span>
-
-                  <span
-                    class="woocommerce-Price-currencySymbol pricemy ms-3">
-                    $10.58
-                  </span>
-                  <div class="button micro">Add to card</div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
+
+       
+
+
+        
 
         <div class="smallcardsmy">
           <div class="diskountttmy">
@@ -1445,6 +1584,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="./script.js"></script>
 </body>
 
