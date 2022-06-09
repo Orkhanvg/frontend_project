@@ -845,6 +845,7 @@ bdi {
 .footer-subscribe{
     padding: 50px 0 0 0;
     background: #233a95;
+    margin-top: 100px;
    
 }
 
@@ -1340,11 +1341,43 @@ margin-left: 15px;
     height: 100%;
 }
 
+.mice{
+  width: 230px;
+  height: 30px;
+  background-color: #233a95;
+  border-radius: 10px;
+  margin-bottom: 0px;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.1s;
+  margin-top: 10px;
+  cursor: pointer;
+  color: white;
+}
+.bigcard_007my img {
+  cursor: pointer;
+}
+.rightmy img {
+  cursor: pointer;
+}
+.info_meatballsmy{
+  cursor: pointer;
+}
+.micro{
+  width: 180px;
+  height: 27px;
+  background-color:#ffcd00;
+  border-radius: 10px;
+  margin-bottom: 0px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+ 
+ 
 
-
-
-
-
+}
 
 
 
@@ -1377,3 +1410,31 @@ border-radius: 10px;
 background: #6EC1E4;
 color: white;
 } */
+
+
+
+input{
+  height: 50px;
+  background-color: #f3f4f7;
+  border: none;
+  outline: none;
+}
+
+button{
+  background-color: #233a95;
+  border: none;
+  border-radius:5px;
+  width: 90px;
+  height: 40px;
+
+}
+.aligtyuikl{
+  height: 10px;
+  margin-bottom: 5px;
+  margin-top: 8px;
+}
+.smallcardsmy:hover .mice{
+  visibility: visible;
+  opacity: 1;
+  margin-top: 0;
+}
