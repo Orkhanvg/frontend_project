@@ -1774,3 +1774,10 @@ margin-right: 600px;
 .border-bottom{
   border-bottom:none
 }
+
+.sortic{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 25px;
+  
+}
