@@ -1874,6 +1874,227 @@ margin-right: 600px;
     border-radius: 10px;
     margin-top: 50px;
   }
+.joystick{
+  box-sizing: border-box;
+}
+  .joystick h1{
+   
+    
+    font-size: 24px;
+    margin: 0 0 15px;
+  }
 
-  .joystick
+ .ixos span{
+  margin-left: -1px;
+ }
 
+ .cup{
+  margin-top: 20px;
+  font-size: 13px;
+ }
+
+
+ .joker{
+  padding: 30px;
+ }
+ .joker .specs{
+  margin-left: -15px;
+ }
+
+ .joker .specs2{
+  margin-left: 70px;
+  margin-top: 30px;
+  border-radius: 30px;
+  border: 2px;
+  width: 80px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ html,body{
+  margin:0;
+  padding:0;
+}
+
+.range-filter {
+  padding-top:10px;
+  width:240px;
+  margin:auto;
+  margin-bottom:10px;
+}
+.range-controls {
+  position:relative;
+  height:80px;
+  margin-bottom:15px;
+  padding:0 30px;
+  background:#34495e;
+  border-radius:5px;
+  overflow:hidden;
+}
+.scale {
+  margin-top:39px;
+  height:2px;
+  background:#d7dcde;
+}
+.bar{
+  height:2px;
+  background:#00ca74;
+}
+.toggle {
+  position:absolute;
+  top:30px;
+  left:30px;
+  width:4px;
+  height:4px;
+  border:8px solid white;
+  background:#ababab;
+  cursor:pointer;
+  border-radius:50%;
+}
+.min-toggle {
+  left:70px;
+}
+.max-toggle {
+  left:165px;
+}
+.price-controls input{
+  width:55px;
+  padding:8px 10px;
+  margin-left:10px;
+  border:none;
+  background:#34495e;
+  font-size:16px;
+  font-family:"Tahoma", sans-serif;
+  text-align:center;
+  color:#283136;
+  border-radius:5px;
+  color:white;
+}
+
+.min-price {
+  margin-right:14px;
+}
+ .pods1{
+ width: 230px; 
+  background: white;
+ 
+
+}
+
+.pods4{
+  background: wheat;
+} 
+.pods2{
+  background-color:  black;
+  border: 10px solid black;
+}
+
+.pods3{
+  background-color:  black;
+  border: 10px solid black;
+}
+
+.pods1{
+  color: black;
+}
+
+
+
+
+/* pagination */
+
+
+@import url('https://rsms.me/inter/inter-ui.css');
+
+.container {
+  display: inline-block;
+  position: relative;
+}
+.index {
+  cursor: pointer;
+  display: inline;
+  margin-right: 30px;
+  padding: 5px;
+  user-select: none;
+  -moz-user-select: none;
+}
+.index:last-child {
+  margin: 0;
+}
+svg {
+  left: -13px;
+  position: absolute;
+  top: -11px;
+  transition: transform 500ms;
+  width: 46px;
+}
+path {
+  fill:none;
+  stroke:#2bbef9;
+  stroke-dasharray: 150 150;
+  stroke-width:15;
+}
+.container.open:not(.flip) path {
+  animation: OpenRight 500ms;
+}
+.container.open.flip path {
+  animation: OpenLeft 500ms;
+}
+.container.i1 svg {
+  transform: translateX(0);
+}
+.container.i2 svg {
+  transform: translateX(50px);
+  
+}
+.container.i3 svg {
+  transform: translateX(102px);
+}
+.container.i4 svg {
+  transform: translateX(154px);
+}
+.container.i5 svg {
+  transform: translateX(206px);
+}
+@keyframes OpenRight {
+  25% { stroke-dasharray: 100 150; }
+  60% { stroke-dasharray: 100 150; }
+  100% { stroke-dasharray: 150 150; }
+}
+@keyframes OpenLeft {
+  25% { stroke-dashoffset: -50px; }
+  60% { stroke-dashoffset: -50px; }
+  100% { stroke-dashoffset: 0; }
+}
+
+.f123{
+  margin-left: 600px;
+}
+
+.circler009{
+  margin-left: 600px;
+  
+}
