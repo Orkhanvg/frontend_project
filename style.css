@@ -2302,3 +2302,11 @@ inputEmail4{
   width: 900px;
   height: 105px;
 }
+
+
+/* right side */
+.searcher{
+  margin-left: 25px;
+  width: 270px;
+  height: 40px;
+}
