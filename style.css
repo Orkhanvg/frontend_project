@@ -2329,7 +2329,9 @@ inputEmail4{
 .downner{
   margin-top: 50px;
 }
-
+.downner{
+  overflow: hidden;
+}
 
 /*
 widget-banner */
@@ -2498,3 +2500,5 @@ cursor: pointer;
   margin-left: 10px;
   margin-top: 10px;
 }
+
+
