@@ -2029,10 +2029,7 @@ margin-right: 600px;
 
 @import url('https://rsms.me/inter/inter-ui.css');
 
-.container {
-  display: inline-block;
-  position: relative;
-}
+
 .index {
   cursor: pointer;
   display: inline;
@@ -2113,4 +2110,158 @@ font-size: 40px;
 .lorem{
   text-align: center;
   
+}
+
+
+.conactnett{
+  width: 369.99px;
+  height: 202px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 40px;
+  border: 0.5px solid #f3f3f6;
+  background-color: #f3f3f6;
+  border-radius: 10px;
+  
+}
+
+.location_icon{
+
+
+    text-transform: none;
+    line-height: 1em;
+    white-space: nowrap;
+    justify-content: center;
+    display: flex;
+  margin-bottom: 30px;
+
+
+}
+
+.address_loc{
+
+  justify-content: center;
+  display: flex;
+  white-space: nowrap;
+    
+
+}
+
+.address_info{
+  justify-content: center;
+  display: flex;
+  white-space: nowrap;
+}
+
+
+
+ .white_box{
+  /* background-color: #ffffff;
+  background-position: 0% 0%;
+  color: #202435;
+  height: 930px;
+  width: 1170px;
+  margin: 40px 0 0 0;
+  padding: 90px 0 90px 0; */
+  margin-top: 150px;
+
+
+} 
+
+.send_us{
+  justify-content: center;
+  display: flex;
+  white-space: nowrap;
+}
+
+.ipsum{
+  justify-content: center;
+  display: flex;
+  white-space: nowrap;
+}
+
+
+.name_edit {
+  /* background-color: #f3f4f7; */
+  background-position: 0% 0%;
+  color: #202435;
+  height: 46px;
+  width: 365px;
+  border: 1px solid #ffffff;
+  padding: 0 15px 0 15px;
+  display: inline-flex;
+  margin-left: 200px;
+}
+.email_edit{
+  width: 365px;
+  height: 46px;
+  border: 1px solid #ffffff;
+  padding: 0 15px 0 15px;
+  /* background-color: #f3f4f7; */
+  background-position: 0% 0%;
+  color: #202435;
+  display: inline-flex;
+
+  
+}
+
+.subject_edit{
+  width: 700px;
+  height: 46px;
+  border: 1px solid #ffffff;
+  padding: 0 15px 0 15px;
+  /* background-color: #f3f4f7; */
+  background-position: 0% 0%;
+  color: #202435;
+  display: inline-flex;
+  margin-left: 220px;
+
+}
+
+.message_edit{
+  width: 760px;
+  height: 120px;
+  border: 1px solid #ffffff;
+  padding: 15px 15px 15px 15px;
+ /* background-color: #f3f4f7; */
+ background-position: 0% 0%;
+ color: #202435;
+ min-height: 120px;
+ display: inline-flex;
+ margin-left: 200px;
+
+}
+
+.contacting_box{
+  height: 789px;
+  width: 1170px;
+  margin: 40px 0 0 0;
+  padding: 90px 0 90px 0;
+
+}
+
+.blue_box{
+  height: 46px;
+  width: 166px;
+  border: 1px solid #ffffff;
+  padding: 0 36px 0 36px;
+  background-color: #233A95;
+  background-position: 0% 0%;
+  color: #ffffff;
+  font-family: 'Inter' sans-serif;
+  font-size: 13px;
+  font-weight: 500px;
+  line-height: 19,5px;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-align: center;
+  white-space: pre;
+  word-spacing: 0px;
+  margin-top: 10px;
+  margin-left: 300px;
+}
+
+inputEmail4{
+  margin-bottom: 150ps;
 }
