@@ -2192,7 +2192,8 @@ font-size: 40px;
   border: 1px solid #ffffff;
   padding: 0 15px 0 15px;
   display: inline-flex;
-  margin-left: 200px;
+  margin-top: 10px;
+  margin-left: 220px;
 }
 .email_edit{
   width: 365px;
@@ -2208,7 +2209,7 @@ font-size: 40px;
 }
 
 .subject_edit{
-  width: 700px;
+  width: 730px;
   height: 46px;
   border: 1px solid #ffffff;
   padding: 0 15px 0 15px;
@@ -2216,7 +2217,7 @@ font-size: 40px;
   background-position: 0% 0%;
   color: #202435;
   display: inline-flex;
-  margin-left: 220px;
+  margin-left: 225px;
 
 }
 
@@ -2259,7 +2260,7 @@ font-size: 40px;
   white-space: pre;
   word-spacing: 0px;
   margin-top: 10px;
-  margin-left: 300px;
+  margin-left: 310px;
 }
 
 inputEmail4{
