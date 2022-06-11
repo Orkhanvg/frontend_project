@@ -2266,3 +2266,39 @@ font-size: 40px;
 inputEmail4{
   margin-bottom: 150ps;
 }
+
+
+/* blog */
+.blog_box{
+  height: 46px;
+  width: 166px;
+  border: 1px solid #ffffff;
+  padding: 0 36px 0 36px;
+  background-color: #233A95;
+  background-position: 0% 0%;
+  color: #ffffff;
+  font-family: 'Inter' sans-serif;
+  font-size: 13px;
+  font-weight: 500px;
+  line-height: 19,5px;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-align: center;
+  white-space: pre;
+  word-spacing: 0px;
+  margin-bottom: 50px;
+}
+
+
+.text_lorem_ipsumos{
+  font-family: 'Inter'sans-serif;
+  font-size: 15px;
+  line-height: 27px;
+  text-align: left;
+  word-spacing: 0px;
+  background-color: #ffffff;
+  background-position: 0% 0%;
+  color: #202435;
+  display: block;
+  width: 900px;
+  height: 105px;
+}
