@@ -2345,7 +2345,7 @@ widget-banner */
 
 .widget_banner{
   margin-left: 30px;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 
@@ -2366,9 +2366,8 @@ widget-banner */
 /* SOCIAL NETWORK */
 
 .social_networks{
-margin-left: 100px;
-margin-top: 50px;
-cursor: pointer;
+
+
 
 }
 
